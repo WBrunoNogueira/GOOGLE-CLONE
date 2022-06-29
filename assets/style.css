@@ -142,7 +142,7 @@ nav .links ul li{
 
 
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #f8f9fa;
     display: flex;
@@ -154,12 +154,20 @@ footer{
 }
 footer .footer_local{
     padding: 10px 30px;
-    border-bottom: 1px solid #dadce0;  
+    border-bottom: 1px solid #dadce0; 
+    width: 100%; 
 }
 footer .footer_area{
     display: flex;
     flex-wrap: wrap;
+    width: 100;
+    justify-content: space-between;
    
+}
+.footer_area .area{
+    display: flex;
+
+
 }
 
 footer .footer_area div{
