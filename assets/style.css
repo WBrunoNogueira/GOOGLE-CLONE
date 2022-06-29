@@ -10,6 +10,7 @@ header{
     display: flex;
     justify-content: end;
     font-size: 12px;
+    margin-bottom: 100px;
 }
 nav{
     margin-right: 20px ;
@@ -177,3 +178,17 @@ footer .footer_area div{
 
 
 /**/
+@media (max-width:500px) {
+    .image_logo img{
+        height: 64px;
+    }
+     .search_bar{  
+        width: 350px;
+        height: 35px;
+    }
+    .imput_search input{
+        width:280px;
+        height: 20px;
+    }
+    
+}
